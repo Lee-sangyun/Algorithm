@@ -23,7 +23,7 @@ public class SelectionSort {
                 int temp = a[i];
                 a[i] = a[current];
                 a[current] = temp;
-            }
+            } // index 와 값을 따로 두지말고 index만 둬도 좋을듯!
         }
         for (int i = 0; i < n; i++) {
             System.out.println(a[i]);
